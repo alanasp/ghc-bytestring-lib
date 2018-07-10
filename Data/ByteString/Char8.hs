@@ -1,6 +1,7 @@
 {-# LANGUAGE CPP, BangPatterns #-}
 {-# LANGUAGE MagicHash #-}
 {-# OPTIONS_HADDOCK prune #-}
+{-# OPTIONS_GHC -fno-warn-warnings-deprecations #-}
 #if __GLASGOW_HASKELL__ >= 701
 {-# LANGUAGE Trustworthy #-}
 #endif
